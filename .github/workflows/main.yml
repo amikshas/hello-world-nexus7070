@@ -8,8 +8,4 @@ jobs:
       - name: Hello world action step
         id: hello
         uses: amikshas/hello-world-nexus7070@v1
-        with:
-          who-to-greet: 'Nexus123 the Octocat'
-      # Use the output from the `hello` step
-      #- name: Get the output time
-      #  run: echo "The time was ${{ steps.hello.outputs.time }}"
+        
