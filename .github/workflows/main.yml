@@ -7,5 +7,5 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: amikshas/hello-world-nexus7070@v1
+        uses: actions/hello-world-nexus7070@v1
         
